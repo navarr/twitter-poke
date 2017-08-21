@@ -1,0 +1,59 @@
+.hentry .actions-hover span.icon.poke-icon,
+.user li.poke-user i
+{
+	background-image: url('http://twitter.koneko-chan.net/superpoke/static/poke_finger_icons.png');
+}
+.user li.poke-user i
+{
+	background-position: -17px 0px;
+}
+.user li.poke-user:hover i
+{
+	background-position: 0px 0px;
+}
+.hentry .actions-hover li .poke-link
+{
+	display: block;
+	float: left;
+	line-height: 16px;
+}
+span.icon.poke-icon
+{
+	height: 15px;
+	width: 	15px;
+	margin-right: 1px;
+}
+.poke-link:hover .poke-icon
+{
+	background-position: -17px 0px;
+	cursor: pointer;
+}
+#pokeWindow
+{
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+	width: 300px;
+	height: 200px;
+	border: 2px solid #00A7D7;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	visibility: hidden;
+	background-color: #C0DEED;
+	z-index: 500;
+}
+#pokeWindowCurtain
+{
+	background-color: rgba(0,0,0,0.85);
+	z-index: 499;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+}

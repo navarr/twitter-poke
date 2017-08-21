@@ -1,0 +1,77 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #C0DEED;
+} #topspan {
+    background-color: #00C8FF;
+    height: 50px;
+} #container, #header {
+    width: 800px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -402px;
+    border: 2px solid #00A7D7;
+} #container {
+    top: 50px;
+    min-height: 500px;
+    background-color: #FFFFFF;
+    border-top-width: 0px;
+    display: block;
+} #header {
+    top: 5px;
+    height: 33px;
+    background-color: #33CCFF;
+    line-height: 33px;
+    width: 790px;
+    padding: 5px;
+} #body {
+    margin: 5px;
+}
+
+a img {
+    border: 0px;
+} #header {
+    border-radius-top-left: 5px;
+    border-radius-top-right: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+} #container {
+    border-radius-bottom-left: 5px;
+    border-radius-bottom-right: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+} #footer {
+    position: absolute;
+    bottom: -20pt;
+    left: 0;
+    width: 800px;
+    text-align: center;
+} #logo {
+    float: left;
+    display: block;
+    height: 33px;
+    background-image: url('/static/img/logo.png');
+    width: 35px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.post div {
+	display: inline-block;
+	float: left;
+}
+ol.timeline
+{
+	list-style-type: none;
+	padding: 0px;
+	display: block;
+	position: relative;
+}
+ol.timeline li
+{
+	clear: both;
+}
